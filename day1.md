@@ -45,3 +45,14 @@ package-lock.json：缓存性文件
       },
       "exclude": ["node_modules", "dist"]
   }
+
+3. 项目路由的分析
+前端所谓路由：KV 键值对
+key：URL（地址标签栏中的路径）
+value：响应的路由组件
+注意：项目上中下结构
+
+路由组件：
+HOME 首页路由组件、Search 搜索路由组件、login 登录路由、register 注册路由
+非路由组件：
+Header（在以上四个组件）、Footer（在首页、搜索页，不在登录页和注册页）
