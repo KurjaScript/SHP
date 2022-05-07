@@ -56,3 +56,22 @@ value：响应的路由组件
 HOME 首页路由组件、Search 搜索路由组件、login 登录路由、register 注册路由
 非路由组件：
 Header（在以上四个组件）、Footer（在首页、搜索页，不在登录页和注册页）
+
+4. 完成非路由组件 Header 和 Footer 的业务
+在项目中，不再以 HTML + CSS 为主，主要搞业务、逻辑
+在开发项目的时候：
+(1) 书写静态页面 (HTML + CSS)
+(2) 拆分组件
+(3) 获取服务器的数据动态展示
+(4) 完成相应的动态业务逻辑
+
+注意1：创建组件的时候，组件结构 + 组件样式 + 图片资源
+注意2：项目采用 less 样式，浏览器不识别 less 样式，需要通过 less、less-loader 进行处理 less，把 less 样式变为 css 样式，浏览器才可以识别。
+cnpm install --save less less-loader@5
+注意3：如果想让组件识别 less 样式，需要 style 标签上加上 lang="less"
+
+4.1 使用组件的步骤(非路由组件)
+-创建或定义组件
+-引入
+-注册
+
