@@ -75,3 +75,5 @@ cnpm install --save less less-loader@5
 -引入
 -注册
 
+5. 路由组件的搭建
+在上面分析的时候，路由组件你应该有四个：Home、Search、Login、Register
