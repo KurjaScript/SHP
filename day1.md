@@ -77,3 +77,5 @@ cnpm install --save less less-loader@5
 
 5. 路由组件的搭建
 在上面分析的时候，路由组件你应该有四个：Home、Search、Login、Register
+- components 文件夹：放置非路由组件（共用全局组件）
+- pages ｜ views 文件夹：放置路由组件
