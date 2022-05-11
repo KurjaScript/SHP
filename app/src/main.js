@@ -7,4 +7,4 @@ new Vue({
   // 注册路由：底下的写法 KV 一致省略 V [router 小写的]
   router
 }).$mount('#app')
-Vue.config.productionTip = false
+// Vue.config.productionTip = false

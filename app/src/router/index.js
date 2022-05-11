@@ -7,6 +7,7 @@ Vue.use(VueRouter);
 import Home from '@/pages/Home'
 import Search from '@/pages/Search'
 import Login from '@/pages/Login'
+import Register from '@/pages/Register'
 // 配置路由
 export default new VueRouter({
     // 配置路由
